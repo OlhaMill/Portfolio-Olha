@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <title>Portfolio de Olha Millionna</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        #language-switcher {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            font-size: 16px;
+        }
+        #language-switcher a {
+            text-decoration: none;
+            color: rgba(214, 214, 214, 0.8);
+            font-weight:lighter;
+            margin: 10px;
+        }
+        #language-switcher a.active {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <!-- Language Switcher -->
+        <div id="language-switcher">
+            <a href="index.html" class="active">Español</a> | 
+            <a href="index_en.html">English</a>
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <a href="#" class="icon solid fa-home"><span>Inicio</span></a>
+            <a href="#work" class="icon solid fa-folder"><span>Proyectos</span></a>
+            <a href="#contact" class="icon solid fa-envelope"><span>Contacto</span></a>
+            <a href="https://www.linkedin.com/in/olha-millionna/" class="icon brands fa-linkedin" target="_blank"><span>LinkedIn</span></a>
+			<a href="cv.pdf" class="icon solid fa-download" download><span>Descargar CV</span></a>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Me -->
+            <article id="home" class="panel intro">
+                <header>
+                    <h1>Olha Millionna</h1>
+                    <p style="font-size: 1.3em;">Desarrolladora Junior | Mujer en IT</p>
+					<p style="letter-spacing: -0.015em;
+								font-size: 0.85em;
+								margin: 0.7em 0 0 0;
+								line-height: 1.5em;">
+						Soy una profesional con formación en Desarrollo de Aplicaciones Multiplataforma (DAM) 
+						y experiencia en desarrollo de aplicaciones y Big Data. Me interesa profundizar en Ciencia de Datos e Inteligencia Artificial, 
+						aunque estoy abierta a explorar otros sectores tecnológicos.
+					</p>
+					<p style="letter-spacing: -0.015em;
+								font-size: 0.85em;
+								margin: 0.4em 0 0 0;
+								line-height: 1.5em;">
+						Estoy entusiasmada por iniciar mi carrera profesional en el mundo tecnológico, 
+						con la firme intención de demostrar mis habilidades y aprender continuamente. 
+						Mi objetivo es aportar valor a cada proyecto y enfrentar nuevos desafíos que me permitan crecer y contribuir de manera significativa.
+					</p>
+                </header>
+                <a href="#work" class="jumplink pic">
+                    <span class="arrow icon solid fa-chevron-right"><span>Ver mis proyectos</span></span>
+                    <img src="images/me2.jpg" alt="" />
+                </a>
+            </article>
+
+            <!-- Work -->
+            <article id="work" class="panel">
+                <header>
+                    <h1>Proyectos</h1>
+					<p class="intro_work">En esta página, encontrarás una serie de proyectos que he desarrollado como parte de mi formación y práctica en el campo 
+						del desarrollo de software. Estos proyectos son una introducción a mis habilidades y capacidades, y representan el primer 
+						paso en mi camino como desarrolladora. 
+						<br>
+						Cada proyecto aquí presentado es una demostración de mis conocimientos básicos y mi entusiasmo por aprender nuevas 
+						tecnologías. Aunque son proyectos sencillos, están diseñados para mostrar mi habilidad para aplicar conceptos fundamentales, 
+						resolver problemas y construir soluciones funcionales.</p>
+                </header>
+                <!-- Botón para desplegar el contenido -->
+				<button class="accordion">App de escritorio "<strong>NutriBalance</strong>"</button>
+				<div class="panel_proyecto">
+					<section>
+						<div class="col-md-8">
+							<img src="images/logo-nutri3.jpg" alt="" class="image logo">
+							<p>
+								Este proyecto surge de mi reconocimiento de la necesidad crucial de que los nutricionistas tengan una herramienta 
+								que les permita crear dietas personalizadas sin esfuerzo, realizar un seguimiento completo de cada cliente 
+								y gestionar su propia base de datos de dietas. Este ha sido mi proyecto final para el ciclo de Desarrollo de Aplicaciones Multiplataforma (DAM), en el que he podido aplicar y expandir mis conocimientos en desarrollo de aplicaciones, gestión de bases de datos y diseño de interfaces de usuario.
+							</p>
+							<p>
+								La aplicación se ha desarrollado principalmente utilizando el lenguaje de programación Java. Para su arquitectura, 
+								el frontend se ha creado con <strong>JavaFX</strong>, proporcionando una interfaz de usuario interactiva y moderna. 
+								El backend está construido en <strong>Java 17</strong>, garantizando robustez y eficiencia en el manejo de procesos y datos. 
+								Además, la API REST se ha implementado utilizando <strong>Spring Boot</strong>, lo que facilita la integración y comunicación 
+								con otros servicios, asegurando un rendimiento óptimo y una estructura escalable.
+							</p>
+							<p>
+								A través de este proyecto, he aprendido la importancia de la flexibilidad y la adaptabilidad en el desarrollo de software, 
+								especialmente en un campo tan dinámico como la nutrición y la salud. El esfuerzo ha valido la pena, ya que he obtenido 
+								una mención honorífica por el proyecto, lo cual destaca el nivel de dedicación y la calidad del trabajo realizado.
+							</p>
+							<!-- Slider main container -->
+							<div class="swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide">
+									<img src="images/nutri/img/1.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/2.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/3.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/4.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/5.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/6.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/7.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/8.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/9.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/10.png" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/nutri/img/11.png" alt="" class="image fit">
+								</div>
+								</div>
+								<div class="swiper-pagination"></div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+								<video class="image fit" autoplay="" playsinline="" muted="" loop src="images/nutri/video.mp4" 
+								style="opacity: 1; width: 100%; border: 2px solid rgb(170, 170, 170); border-radius: 8px;
+								box-shadow: 0 -16px 24px -16px rgba(0, 0, 0, 0.5);" ></video>
+							</div>
+							<a href="https://github.com/OlhaMill/PFC" class="boton-nutri" target="_blank">Código fuente</a>
+						</div>
+					</section>
+				</div>
+
+				<!-- Botón para desplegar el contenido -->
+				<button class="accordion">App multiplataforma "<strong>Ciudades</strong>"</button>
+				<div class="panel_proyecto">
+					<section>
+						<div class="col-md-8">
+							<img src="images/flutter/logo.png" alt="" class="image logo">
+							<p>
+								Este proyecto fue creado como parte del trabajo final de la asignatura Desarrollo de Interfaces. <br>
+								La aplicación ha sido desarrollada utilizando <strong>Dart</strong> en <strong>Flutter</strong>, 
+								una poderosa herramienta para el desarrollo de aplicaciones multiplataforma.
+							</p>
+							<p>
+								El objetivo principal de este proyecto fue demostrar mis habilidades adquiridas a lo largo del curso, 
+								centrándome en la creación de una aplicación funcional y efectiva. Aunque el diseño es sencillo, 
+								se ha enfocado en incorporar toda la funcionalidad básica necesaria para una aplicación multiplataforma, 
+								garantizando su correcto funcionamiento tanto en dispositivos Android como iOS.
+							</p>
+							<p>
+								Este proyecto refleja no solo mi capacidad técnica en la programación con <strong>Flutter</strong>, 
+								sino también mi comprensión del diseño y desarrollo de interfaces de usuario intuitivas y eficientes.
+							</p>
+							<div class="swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide">
+									<img src="images/flutter/ 1.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/flutter/2.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/flutter/3.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/flutter/4.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/flutter/5.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/flutter/6.jpg" alt="" class="image fit">
+								</div>
+								</div>
+								<div class="swiper-pagination"></div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+								<video class="image fit" autoplay="" playsinline="" muted="" loop src="images/flutter/videoFlutter.mp4" 
+								style="opacity: 1; width: 100%; border: 2px solid rgb(170, 170, 170); border-radius: 8px;
+								box-shadow: 0 -16px 24px -16px rgba(0, 0, 0, 0.5);" ></video>
+							</div>
+							<a href="https://github.com/OlhaMill/proyecto__Flutter" class="boton-nutri" target="_blank">Código fuente</a>
+						</div>
+					</section>
+				</div>
+
+				 <!-- Botón para desplegar el contenido -->
+				 <button class="accordion">App de escritorio "<strong>Héroes Marvel</strong>"</button>
+				 <div class="panel_proyecto">
+					 <section>
+						 <div class="col-md-8">
+							 <img src="images/marvel/logo.jpg" alt="" class="image logo">
+							 <p>
+								El proyecto <strong>Héroes Marvel</strong> se originó como parte de una tarea destinada a la creación de una aplicación cliente 
+								para una <strong>API REST</strong> desarrollada en <strong>JavaScript (Node.js)</strong>, la cual interactúa con una base de datos en 
+								<strong>MongoDB</strong>. La aplicación cliente fue implementada utilizando <strong>JavaFX</strong>.
+							 </p>
+							 <p>
+								El objetivo principal de este proyecto fue mostrar la funcionalidad interna de la API REST, 
+								permitiendo a los usuarios interactuar con la base de datos de manera efectiva y acceder a la información relacionada 
+								con los héroes de Marvel. La aplicación proporciona una interfaz gráfica intuitiva, que facilita la interacción con la 
+								API y la visualización de los datos almacenados.
+							 </p>
+							 <p>
+								Este proyecto demuestra mi capacidad para integrar tecnologías de backend y frontend, manejando bases de datos no relacionales y 
+								creando interfaces de usuario dinámicas y funcionales.
+							 </p>
+ 
+							 <div class="swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide">
+									<img src="images/marvel/M1.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/marvel/M2.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/marvel/M3.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/marvel/M4.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/marvel/M5.jpg" alt="" class="image fit">
+								</div>
+								<div class="swiper-slide">
+									<img src="images/marvel/M6.jpg" alt="" class="image fit">
+								</div>
+								</div>
+								<div class="swiper-pagination"></div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+							 <div class="col-4 col-6-medium col-12-small">
+								 <video class="image fit" autoplay="" playsinline="" muted="" loop src="images/marvel/videoMarvel.mp4" 
+								 style="opacity: 1; width: 90%; margin: auto; border: 2px solid rgb(170, 170, 170); border-radius: 8px;
+								 box-shadow: 0 -16px 24px -16px rgba(0, 0, 0, 0.5);" ></video>
+							 </div>
+							 <a href="https://github.com/OlhaMill/proyecto_PSP" class="boton-nutri" target="_blank">Código fuente</a>
+						 </div>
+					 </section>
+				 </div>
+
+				 <!-- Botón para desplegar el contenido -->
+				 <button class="accordion">App para Android "<strong>ViajaYA</strong>"</button>
+				 <div class="panel_proyecto">
+					 <section>
+						 <div class="col-md-8">
+							 <img src="images/viajaya/logo.jpeg" alt="" class="image fit">
+							 <p>
+								<strong>ViajaYA</strong> es una aplicación desarrollada en <strong>Kotlin</strong> utilizando <strong>Android Studio</strong> como entorno 
+								de desarrollo, como proyecto final de una asignatura del ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM). 
+								La app está diseñada para satisfacer las necesidades básicas de un viajero, ofreciendo funcionalidades como 
+								la búsqueda de destinos, la creación y gestión de itinerarios personalizados, la reserva de alojamientos y transporte, 
+								y la posibilidad de llevar un seguimiento de gastos durante el viaje.
+							 </p>
+							 <p>
+								Para la gestión de datos y autenticación de usuarios, la aplicación se conecta a <strong>Firebase</strong>, 
+								proporcionando un entorno seguro y en tiempo real. El diseño es intuitivo y accesible, 
+								pensado para facilitar la planificación de viajes de manera rápida y eficiente.
+							 </p>
+							 
+							 <div class="swiper" style="width: 40%; margin: auto;">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<img src="images/viajaya/A1.jpg" alt="" >
+									</div>
+									<div class="swiper-slide">
+										<img src="images/viajaya/A2.jpg" alt="" >
+									</div>
+									<div class="swiper-slide">
+										<img src="images/viajaya/A3.jpg" alt="" >
+									</div>
+									<div class="swiper-slide">
+										<img src="images/viajaya/A4.jpg" alt="" >
+									</div>
+									<div class="swiper-slide">
+										<img src="images/viajaya/A5.jpg" alt="" >
+									</div>
+									<div class="swiper-slide">
+										<img src="images/viajaya/A6.jpg" alt="" >
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+							 <div class="col-4 col-6-medium col-12-small">
+								 <video class="image fit" autoplay="" playsinline="" muted="" loop src="images/viajaya/videoViaja2.mp4" 
+								 style="opacity: 1; width: 40%; margin: auto; border: 2px solid rgb(170, 170, 170); border-radius: 8px;
+								 box-shadow: 0 -16px 24px -16px rgba(0, 0, 0, 0.5);" ></video>
+							 </div>
+							 <a href="https://github.com/OlhaMill/Android_ViajaYa" class="boton-nutri" target="_blank">Código fuente</a>
+						 </div>
+					 </section>
+				 </div>
+ 
+            </article>
+
+            <!-- Contact -->
+            <article id="contact" class="panel">
+                <header>
+                    <h2>Contáctame</h2>
+                </header>
+                <form action="https://formsubmit.co/282fbe00f29f2efa7b41d5c45c5b0442" method="POST">
+                    <div>
+                        <div class="row">
+                            <div class="col-6 col-12-medium">
+                                <input type="text" name="name" placeholder="Nombre" />
+                            </div>
+                            <div class="col-6 col-12-medium">
+                                <input type="text" name="email" placeholder="Correo electrónico" />
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" placeholder="Mensaje" rows="6"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" value="Enviar mensaje" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <ul class="copyright">
+                <li>&copy; Olha Millionna</li><li>2024</li><li>Alicante</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+</body>
+</html>
